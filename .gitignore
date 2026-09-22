@@ -1,0 +1,39 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter temporary files (keep notebook outputs for presentation)
+.ipynb_checkpoints/
+.jupyter/
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+
+# Generated exports and temporary work
+build/
+dist/
+*.egg-info/
+output/
+outputs/
+tmp/
+*.log
+
+# Local reference material and duplicate downloads
+/Amir/
+/more recent files of project/
+/Lab 2.pdf

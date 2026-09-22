@@ -1,0 +1,9 @@
+# Core analysis versions used to verify the notebook (Python 3.12)
+numpy==2.3.5
+pandas==3.0.1
+matplotlib==3.11.2
+scikit-learn==1.9.1
+ipython==9.17.1
+# Notebook interface and kernel
+jupyterlab>=4,<5
+ipykernel==7.3.0
