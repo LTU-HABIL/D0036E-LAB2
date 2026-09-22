@@ -2,13 +2,13 @@
 
 A practical study of how age relates to mean income in 2020. The lab first fits a straight line to a limited age range, repeats the analysis across a wider age range, and then compares polynomial models.
 
-The [notebook](Habil/lab2_regression.ipynb) contains the five lab tasks, results and three required figures. This README is a companion for learning the reasoning behind the code.
+The [notebook](lab2_regression.ipynb) contains the five lab tasks, results and three required figures. This README is a companion for learning the reasoning behind the code.
 
 ## Repository contents
 
 | File | Purpose |
 |---|---|
-| `Habil/lab2_regression.ipynb` | Executed lab notebook with explanations, tables and plots |
+| `lab2_regression.ipynb` | Executed lab notebook with explanations, tables and plots |
 | `inc_subset.csv` | 30 observations, ages 20–49, with mean income for 2020 |
 | `inc_utf.csv` | 1,785 observations: 21 regions × 85 age labels |
 | `requirements.txt` | Analysis packages and notebook interface |
@@ -46,7 +46,7 @@ python -m ipykernel install --user --name d0036e-lab2 --display-name "Python (D0
 python -m jupyterlab
 ```
 
-Open `Habil/lab2_regression.ipynb`, select **Python (D0036E Lab 2)**, and restart the kernel and run all cells. The notebook searches its working directory and parent directories for both CSV files, so it works from the repository root or the notebook folder. Keep the datasets inside the cloned repository.
+Open `lab2_regression.ipynb`, select **Python (D0036E Lab 2)**, and restart the kernel and run all cells. The notebook searches its working directory and parent directories for both CSV files, so it works from the repository root. Keep the datasets inside the cloned repository.
 
 If PowerShell blocks environment activation, use the environment's Python directly instead of changing your execution policy:
 
@@ -226,7 +226,7 @@ Tasks 2 and 3 do not use scikit-learn for fitting or MSE. All model evaluations 
 
 ## Reproducibility and troubleshooting
 
-The notebook contains 12 executable cells and three figures. It was run from a fresh kernel in its own folder. Core analysis dependencies are pinned; JupyterLab is a compatible interface dependency rather than part of the numerical model. Small numerical differences can still occur across platforms.
+The notebook contains 12 executable cells and three figures. It was run from a fresh kernel in the repository root. Core analysis dependencies are pinned; JupyterLab is a compatible interface dependency rather than part of the numerical model. Small numerical differences can still occur across platforms.
 
 - **Missing module:** install requirements in the environment used by the selected notebook kernel.
 - **Data file not found:** launch within the repository and keep both CSVs at its root.
